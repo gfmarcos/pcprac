@@ -1,0 +1,25 @@
+$colorCorporate: hsl(60, 100%, 42%);
+$colorComple: hsl(0, 0%, 20%);
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10vh 0 0 0;
+  background: $colorComple no-repeat url("./img/bk.jpg");
+  background-size: 100% auto;
+  background-position: bottom center;
+  h1 {
+    background: $colorCorporate;
+    color: $colorComple;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 4vh 0;
+    margin: 8vh 0;
+  }
+}
